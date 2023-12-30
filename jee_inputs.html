@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>College Prediction</title>
+  </head>
+  <body>
+    <style>
+        body 
+        {
+            background-image: url('https://images.unsplash.com/photo-1627484164075-1f4126482550?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmxhbmslMjBwYXBlcnxlbnwwfHwwfHw%3D&w=1000&q=80');
+            height:100vh;
+            background-size:cover;
+            background-position:center;
+            text-align:center ;
+            font-size:20px;
+        }
+    </style>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>COLLEGE PREDICTOR</h1>
+          </div>
+          <div class="panel-body">
+            <form action="jee_select.php" method="post">
+              <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstname"
+                  name="firstname"
+                />
+              </div>
+              <br> <br>
+              <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastname"
+                  name="lastname"
+                />
+              </div><br><br>
+              <div class="form-group">
+                <label for="number">Rank</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="rank"
+                />
+              </div><br><br>
+              <div class="form-group">
+                <label for="branch">Branch</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="branch"
+                  name="branch"
+                />
+              </div>
+              <br><br>
+              
+              <input type="submit" name="search" 
+              class="btn btn-primary" style="background-color:black;color:rgb(233, 224, 224);width:100px;height:30px; font-size:20px ;"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
