@@ -1,0 +1,2 @@
+College predictor System is an application in which students can enter their rank along with their personal information. This helps to predict their admissions in colleges. When the student or user gives the information like gender, caste, rank and name then application predicts list of colleges bases on his/her rank. And Application also gives the information about the branches in that college.And it is redirected to the specific college website.
+![image](https://github.com/ananyachowhan/collegepredictor/assets/92199453/8150d225-2487-4916-aa59-861ea4bebde3)
